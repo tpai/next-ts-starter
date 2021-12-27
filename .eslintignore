@@ -1,0 +1,7 @@
+.next
+internal
+public
+assets
+node_modules
+packages
+!.storybook

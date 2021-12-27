@@ -1,0 +1,26 @@
+{
+  "processors": ["stylelint-processor-styled-components"],
+  "syntax": "scss",
+  "plugins": [
+		"stylelint-order"
+	],
+  "rules": {
+    "color-no-invalid-hex": true,
+    "at-rule-no-vendor-prefix": true,
+    "media-feature-name-no-vendor-prefix": true,
+    "value-no-vendor-prefix": true,
+
+    "max-nesting-depth": 3,
+    "max-line-length": 120,
+    "max-empty-lines": [1, {
+      "ignore": ["comments"]
+    }],
+    "value-list-comma-newline-after": "always-multi-line",
+    "no-extra-semicolons": true,
+    "no-empty-first-line": true,
+    "no-eol-whitespace": true,
+
+    "number-max-precision": 4,
+    "number-no-trailing-zeros": true
+  }
+}
